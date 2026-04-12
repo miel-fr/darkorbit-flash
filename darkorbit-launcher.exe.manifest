@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="darkorbit-launcher.exe" version="2.0.0.0" publicKeyToken="0000000000000000" language="en" processorArchitecture="amd64" type="win32" />
-  <description asmv2:iconFile="Resources\darkorbit_launcherV2.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <asmv1:assemblyIdentity name="darkorbit-launcher.exe" version="2.0.0.1" publicKeyToken="0000000000000000" language="en" processorArchitecture="amd64" type="win32" />
+  <description asmv2:iconFile="darkorbit_launcherV3.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="darkorbit-launcher" version="2.0.0.0" language="neutral" processorArchitecture="amd64" />
+    <assemblyIdentity name="darkorbit-launcher" version="2.0.0.1" language="neutral" processorArchitecture="amd64" />
     <commandLine file="darkorbit-launcher.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,17 +43,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="darkorbit-launcher.exe" size="5212640">
-      <assemblyIdentity name="darkorbit-launcher" version="2.0.0.0" language="neutral" processorArchitecture="amd64" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="darkorbit-launcher.exe" size="4958688">
+      <assemblyIdentity name="darkorbit-launcher" version="2.0.0.1" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>XRBj9VDerU+VXU/0P15DhkM3z9vbQ4LVg1nTQ1URvOM=</dsig:DigestValue>
+        <dsig:DigestValue>o+iJVypx/L+C1v6eB3hTeBujLmDRdqjxzIYOKJ0beGI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="darkorbit_launcherV3.ico" size="83217">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uRkp0Lh0u/5eXFpMpFXpIS4KbPz0f+XcT5gI8xr3v7E=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="darkorbit-launcher.exe.config" size="188">
     <hash>
       <dsig:Transforms>
@@ -63,13 +72,22 @@
       <dsig:DigestValue>87RtBnJBGsPz+CMe7HnKxYwSS39Us2mNINtPVHUA2nA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Resources\darkorbit_launcherV2.ico" size="210206">
+  <file name="Resources\darkorbit_launcherV3.ico" size="83217">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>VWMLhQz7+KaN9QqHY2/AYMyBkHCxVX6HndqJDFrwSiM=</dsig:DigestValue>
+      <dsig:DigestValue>uRkp0Lh0u/5eXFpMpFXpIS4KbPz0f+XcT5gI8xr3v7E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\darkorbit_launcherV3.png" size="1271496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TdKeJU353MwWYqteH47Fq83trqtE/N7TVo529hYV/mw=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
