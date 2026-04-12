@@ -35,7 +35,7 @@ I'm not developing, I just like innovation.
 
 #### 🔗 Links
 
-- [![WebSite](https://img.shields.io/badge/website-1DA1F?style=for-the-badge&logo=site&logoColor=white)](https://www.darkorbit-status.com)
+- [![WebSite](https://img.shields.io/discord/1487835625561395242?style=for-the-badge&logo=discord&label=Discord&link=https%3A%2F%2Fwww.discord.gg%2FJSHKDFsXVk)
 - [![WebSite](https://img.shields.io/badge/youtube-FF0033?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Miel_France)
 - [![WebSite](https://img.shields.io/badge/twitch-964FFF?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/miel_fr)
 - [![WebSite](https://img.shields.io/badge/tiktok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@miel_france)
